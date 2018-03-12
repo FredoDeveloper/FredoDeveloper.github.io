@@ -1,0 +1,36 @@
+body{
+    font-family: sans-serif;
+   
+  }
+  .main-img{
+    border: solid 4px black;
+    border-radius: 50%;
+  }
+  #name{
+    background-color: #e2e2e2;
+    padding: 5px;
+    text-align: center;
+    
+  }
+  .section-title{
+    text-transform: uppercase;
+  }
+
+  .background-top{
+      
+      width: 25%;
+  }
+
+  
+  #profile-pic{
+    float: right;
+    margin-right: 10px;
+  }
+  #copyright{
+    width: 25px;
+  }
+ 
+  #option{
+     
+    padding: 25px;
+  }

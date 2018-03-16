@@ -8,7 +8,7 @@ body {
   margin: 0;
   padding: 0;
   text-align: center;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: #222;
   background: #E9EBEE;
 }
@@ -28,11 +28,12 @@ a:hover {
 
 .main-nav {
   width: 100%;
-  background: silver;
+  background: #29487D;
   min-height: 30px;
-  padding: 10px;
+  padding: 10/2px;
   position: fixed;
   text-align: center;
+ 
 }
 
 .nav {
@@ -63,10 +64,13 @@ a:hover {
 header {
   text-align: center;
   background: url(../computer.jpg) no-repeat top center;
-  background-size: cover;
+  background-size: contain;
   overflow: hidden;
   background-blend-mode: exclusion;
   padding-top: 60px;
+  padding: 100px ;
+  line-height: 40px;
+  
 }
 
 header {
@@ -83,7 +87,7 @@ header .profile-image {
 }
 
 header .profile-image:hover {
-  transform: scale(1.1);
+  transform: scale(1.1) ;
 }
 
 .tag {
@@ -205,7 +209,7 @@ a.social:hover {
   .nav .name {
     display: block;
     margin-right: auto;
-    color: black;
+    color: White;
     font-family: 'Slabo 27px', serif;
     font-size: 25px;
   }

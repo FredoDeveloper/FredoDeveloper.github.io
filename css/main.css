@@ -61,7 +61,7 @@ a:hover {
   color: rgb(135, 7, 185);
 }
 
-header {
+header{
   text-align: center;
   background: url(../computer.jpg) no-repeat top center;
   background-size: contain;
@@ -252,6 +252,11 @@ li {
   background: #55ACEE;
   color: white;
 }
+.fa-github {
+  background: #0D2636;
+  color: white;
+}
+
 
 .fa-linkedin {
   background: #007bb5;
